@@ -16,11 +16,8 @@ for i in range(2, filas):
     Cliente_Shelf_Slot_A = worksheet.cell(i, 13).value
     Linea_Shelf_Slot_A = worksheet.cell(i, 14).value
 
-    row = worksheet.row_values(i)
-    my_dict[Equipo_A] = row
 
-
-    # if Equipo_A == NEname:
-    #     if Cliente_Shelf_Slot_A == Transponder:
-    #     worksheet.cell(i,19).value = worksheet2.cell(x,8).value)
+ if Equipo_A == NEname:
+ if Cliente_Shelf_Slot_A == Transponder:
+ worksheet.cell(i,19).value = worksheet2.cell(x,8).value)
 
